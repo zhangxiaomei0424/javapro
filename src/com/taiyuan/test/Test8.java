@@ -83,8 +83,8 @@ public class Test8 {
             }
         }*/
         //两个正整数  计算最大公约数和最小公倍数
-        double m = 20;
-        double n = 2;
+        int m = 20;
+        int n = 2;
         int a=0;
         for(int i=1;i<=max(m,n);i++){
             if((m%i==0)&&(n%i==0)){
@@ -92,7 +92,7 @@ public class Test8 {
             }
         }System.out.println("这两个数的最大公约数为："+a);
         for(int j=1;j<=max(m,n);j++){
-            int sum = (int) (max(m,n)*j);
+            int sum = max(m,n)*j;
             if (sum%min(m,n)==0){
                 System.out.println("这两个数的最小公倍数为："+sum);
             }break;
