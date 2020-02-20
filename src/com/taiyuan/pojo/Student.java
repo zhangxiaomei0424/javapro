@@ -6,6 +6,34 @@ public class Student {
     private String Ssex;
     private Integer Sage;
     private String Sdept;
+    /*static {
+        System.out.println("student静态代码块");
+    }*/
+   /* {
+        System.out.println("student构造代码块");
+    }*/
+    public Student() {
+        //System.out.println("构造方法");
+    }
+
+    public Student(Integer sno) {
+        this.Sno = sno;
+    }
+
+    public Student(String sname, String ssex, Integer sage, String sdept) {
+        this.Sname = sname;
+        this.Ssex = ssex;
+        this.Sage = sage;
+        this.Sdept = sdept;
+    }
+
+    public Student(Integer sno, String sname, String ssex, Integer sage, String sdept) {
+        this.Sno = sno;
+        this.Sname = sname;
+        this.Ssex = ssex;
+        this.Sage = sage;
+        this.Sdept = sdept;
+    }
 
     @Override
     public String toString() {

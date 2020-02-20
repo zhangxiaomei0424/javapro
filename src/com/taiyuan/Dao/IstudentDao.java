@@ -8,7 +8,8 @@ public interface IstudentDao {
     List<Student> query();
     int add(Student student);
     int update(Student student);
-    int del(int Sno);
+    int del(int student);
+
     Student queryOne(int Sno);
 
 }

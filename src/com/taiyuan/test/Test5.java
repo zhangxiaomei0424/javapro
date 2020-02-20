@@ -5,11 +5,11 @@ import java.io.*;
 public class Test5 {
     public static void main(String[] args) {
         int a = 10;
-        Student student = new Student();
+       /* Student student = new Student11();
         student.setId(10);
         student.setName("李四");
         student.setAge(22);
-        student.setGrade("软件工程162601");
+        student.setGrade("软件工程162601");*/
         //字节输出流
         /*File file = new File("d:/a");
         System.out.println(file.mkdirs());*/
