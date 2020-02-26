@@ -1,9 +1,18 @@
 package com.taiyuan.test;
 
-public class Persion {
-    private int age;
+public class Persion extends Animal{
+    /*private String name;
+    private int age;*/
     private int no;
-    public void add(int a,int b){
+
+    public int getNo() {
+        return no;
+    }
+
+    public void setNo(int no) {
+        this.no = no;
+    }
+    /*  public void add(int a,int b){
         int c = a+b;
         System.out.println(c);
     }
@@ -16,6 +25,6 @@ public class Persion {
     }
     public int getAge() {
         return age;
-    }
+    }*/
 
 }
